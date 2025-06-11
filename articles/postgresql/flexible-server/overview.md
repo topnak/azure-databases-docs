@@ -57,7 +57,7 @@ Azure Database for PostgreSQL flexible server allows you to stop and start the s
 
 ## Enterprise-grade security
 
-Azure Database for PostgreSQL flexible server uses the FIPS 140-2 validated cryptographic module for storage encryption of data at rest. Data are encrypted, including backups and temporary files created while running queries. The service uses the AES 256-bit cipher included in Azure storage encryption, and the keys can be system-managed (default). Azure Database for PostgreSQL flexible server encrypts data in motion with default transport layer security (SSL/TLS) enforced by default. The service enforces and supports TLS version 1.2 only.
+Azure Database for PostgreSQL flexible server uses the FIPS 140-2 validated cryptographic module for storage encryption of data at rest. Data are encrypted, including backups and temporary files created while running queries. The service uses the AES 256-bit cipher included in Azure storage encryption, and the keys can be system-managed (default). Azure Database for PostgreSQL flexible server encrypts data in motion with default transport layer security (SSL/TLS) enforced by default. The service enforces and supports TLS version 1.2 onward.
 
 Azure Database for PostgreSQL flexible server instances allows full private access to the servers using Azure virtual network (VNet integration). Servers in the Azure virtual network can only be reached and connected through private IP addresses. With VNet integration, public access is denied, and servers can't be reached using public endpoints.
 
